@@ -272,22 +272,24 @@ ostream& operator<<(ostream& stream, Watermap map)
 		{
 			if(map.getCell(j, i) == 0)
 			{
-				cout << ". ";
+				stream << ". ";
 			}
 			else if(map.getCell(j, i) == 6)
 			{
-				cout << "o ";
+				stream << "o ";
 			}
 			else if(map.getCell(j, i) >=2 && map.getCell(j, i) <= 5)
 			{
-				cout << "# ";
+				stream << "# ";
 			}
 			else if(map.getCell(j, i) == 7)
 			{
-				cout << "x ";
+				stream << "x ";
 			}
 		}
 		
-		cout << endl;
+		stream << endl;
 	}
+	
+	return stream;
 }
