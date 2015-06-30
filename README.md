@@ -1,4 +1,4 @@
-# WaterMap-Generator
+# Class WaterMap
 [C++]
 
 Creates a map in which boats are randomly created
