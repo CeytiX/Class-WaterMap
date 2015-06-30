@@ -1,4 +1,4 @@
-# Class WaterMap
+# Class Watermap
 [C++]
 
 Creates a map in which boats are randomly created
@@ -17,9 +17,9 @@ g++: `sudo apt-get install g++`
 
 ### Download
 
--> Download the source code (`git clone https://github.com/CeytiX/WaterMap-Generator.git`)
+-> Download the source code (`git clone https://github.com/CeytiX/Class-Watermap.git`)
 
--> Go in the directory 'Map-Generators' (`cd WaterMap-Generator/`)
+-> Go in the directory 'Map-Generators' (`cd Class-Watermap/`)
 
 ### Compile and Run
 
