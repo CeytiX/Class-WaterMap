@@ -274,7 +274,7 @@ ostream& operator<<(ostream& stream, Watermap map)
 			{
 				stream << ". ";
 			}
-			else if(map.getCell(j, i) == 6)
+			else if(map.getCell(j, i) == 1)
 			{
 				stream << "o ";
 			}
@@ -282,7 +282,7 @@ ostream& operator<<(ostream& stream, Watermap map)
 			{
 				stream << "# ";
 			}
-			else if(map.getCell(j, i) == 7)
+			else if(map.getCell(j, i) == 6)
 			{
 				stream << "x ";
 			}

@@ -1,0 +1,42 @@
+The Watermap class allows you to create a random map (with boats) and interact with it.
+
+The constructor is `WaterMap()`
+	So you have to add no parameters:
+		`Watermap watermap;`
+
+`void generate()`:
+	Create random rooms in the map
+	
+`void setSeed(int value)`:
+	set a value watermap.seed
+	the new seed is the absolute value of `value`
+	
+`int getSeed()`:
+	return water.seed
+	
+`void setRandom(bool value)`:
+	set a value to watermap.random
+	if value == true, a new seed is created for each new map
+	if value == false, the seed of the next map is the actual seed
+	
+`bool getRandom()`:
+	return the value of watermap.random
+	
+`void setCell(int x, int y, int value)`:
+	set value to watermap.map[x][y]
+	
+`int getCell(int x, int y)`:
+	return water.map[x][y]
+	if return value is -1, watermap.map[x][y] doesn't exist
+	
+cell values:
+	0 : void
+	1 : missed
+	2 : little boat
+	3 : medium boat
+	4 : big boat
+	5 : huge boat
+	6 : touched
+
+you can use the operator<<(ostream&, Watermap)
+
